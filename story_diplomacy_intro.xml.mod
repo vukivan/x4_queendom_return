@@ -362,7 +362,7 @@
                        Pt10_Interloper,
                        Pt11_End]"/>
 
-            <do_if value="$ForceCompleted or (player.module!='custom_budgeted' and player.module!='custom_creative'">
+            <do_if value="$ForceCompleted or (player.module!='custom_budgeted' and player.module!='custom_creative')">
               <!--Skip to the end-->
               <signal_cue cue="Pt11_Skip"/>
             </do_if>

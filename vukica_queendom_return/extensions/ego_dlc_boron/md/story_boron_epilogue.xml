@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <diff>
-  <!-- Wipes out whatever child node lives directly under mdscript -->
-  <remove sel="/mdscript/*" />
+  <remove sel="//mdscript/cues"/>
 </diff>

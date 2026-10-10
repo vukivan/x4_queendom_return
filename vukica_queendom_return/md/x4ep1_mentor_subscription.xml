@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <add sel="//set_value[@name='$HQPosition']" pos="before">
+    <find_sector name="$HQSectorHE" macro="macro.cluster_31_sector001_macro" comment="Heretic's End, the new HQ sector"/>
+  </add>
+  <replace sel="//cue[@name='Initialise']/actions/do_if/@value">(player.module != 'custom_budgeted' and player.module != 'custom_creative') or $story_hq_boso or $story_hq_dal</replace>
+  <replace sel="//do_else/find_station_by_true_owner/@space">$HQSectorHE</replace>
+  <add sel="//do_else/find_station_by_true_owner" type="@required">true</add>
+</diff>

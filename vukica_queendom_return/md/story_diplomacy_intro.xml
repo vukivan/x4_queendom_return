@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <replace sel="//cue[@name='Initialise']/actions/do_if/@value">$ForceCompleted or (player.module!='custom_budgeted' and player.module!='custom_creative')</replace>
+</diff>

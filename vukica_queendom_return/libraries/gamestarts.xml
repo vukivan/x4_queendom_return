@@ -2,4 +2,5 @@
 <diff>
   <remove sel="//gamestart[@id='x4ep1_gamestart_boron1']"/>
   <remove sel="//gamestart[@id='x4ep1_gamestart_boron2']"/>
+  <remove sel="//gamestart[@id='custom_creative']/budget/groups/group[@id='kingdom_end_situation']"/>
 </diff>
