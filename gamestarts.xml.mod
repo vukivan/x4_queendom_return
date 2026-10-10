@@ -1415,6 +1415,177 @@
       <item value="playername" state="standard"/>
     </custom>
   </gamestart>
+  <gamestart id="x4ep1_gamestart_boron1" name="{1021,1400}" description="{1021,1401}" image="gamestart_boron1" group="9" debug="true">
+    <info>
+      <!-- Character Name -->
+      <!-- Name, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
+      <item name="@name"/>
+      <item name="@player"/>
+      <item/>
+      <item/>
+      <item name="{1021,1}" value="{1021,1403}"/>
+      <item/>
+      <item name="{1021,2}" value="{1021,1404}"/>
+      <item name="{1021,3}" value="{1021,1405}"/>
+      <item name="{1021,5}" value="{1021,41}"/>
+    </info>
+    <cutscene ref="gamestart_boron1" voice="gamestart_boron1_selected"/>
+    <intro ref="gamestart5" voice="gamestart_boron1_started" length="40.0" fadeout="2.0"/>
+    <type name="{1021,90}" description="{1021,91}" recommendation="21"/>
+    <location galaxy="xu_ep2_universe_macro" sector="cluster_30_sector001_macro">
+      <position x="104258.882813" y="0.000000" z="-90547.906250"/>
+      <rotation yaw="-1.11969" pitch="0.000402158"/>
+    </location>
+    <player macro="character_player_boron_gamestart1_argon_m_macro" money="15000" name="{1021,1402}">
+      <ship macro="ship_arg_s_scout_01_a_macro">
+        <loadout>
+          <macros>
+            <engine macro="engine_par_s_travel_01_mk1_macro" path="../con_engine_01"/>
+            <engine macro="engine_par_s_travel_01_mk1_macro" path="../con_engine_02"/>
+            <weapon macro="weapon_gen_s_laser_01_mk1_macro" path="../con_primaryweapon_01" optional="true"/>
+            <weapon macro="weapon_gen_s_laser_01_mk1_macro" path="../con_primaryweapon_02" optional="true"/>
+            <shield macro="shield_tel_s_standard_01_mk1_macro" path="../con_shield_01" optional="true"/>
+          </macros>
+          <ammunition>
+            <ammunition macro="eq_arg_satellite_01_macro" exact="5" optional="true"/>
+            <ammunition macro="env_deco_nav_beacon_t1_macro" exact="5" optional="true"/>
+            <ammunition macro="eq_arg_resourceprobe_01_macro" exact="5" optional="true"/>
+          </ammunition>
+          <software>
+            <software ware="software_scannerlongerangemk1"/>
+          </software>
+          <virtualmacros>
+            <thruster macro="thruster_gen_s_allround_01_mk1_macro"/>
+          </virtualmacros>
+        </loadout>
+      </ship>
+      <inventory>
+        <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1"/>
+        <ware ware="software_scannerobjectmk3" amount="1"/>
+      </inventory>
+      <blueprints>
+        <ware ware="clothingmod_0001"/>
+        <ware ware="clothingmod_0002"/>
+        <ware ware="module_arg_dock_m_01_lowtech"/>
+        <ware ware="module_arg_pier_l_03"/>
+        <ware ware="module_arg_stor_container_s_01"/>
+        <ware ware="module_arg_conn_base_01"/>
+        <ware ware="module_arg_conn_cross_01"/>
+        <ware ware="module_arg_conn_vertical_01"/>
+        <ware ware="module_gen_prod_energycells_01"/>
+        <ware ware="module_arg_prod_meat_01"/>
+        <ware ware="paintmod_0006"/>
+        <ware ware="paintmod_0048"/>
+        <ware ware="paintmod_0049"/>
+        <ware ware="paintmod_0050"/>
+        <ware ware="paintmod_0097"/>
+        <ware ware="paintmod_0098"/>
+        <ware ware="paintmod_0099"/>
+        <ware ware="paintmod_0100"/>
+      </blueprints>
+      <research>
+        <ware ware="research_radioreceiver"/>
+        <ware ware="research_sensorbooster"/>
+        <ware ware="research_tradeinterface"/>
+      </research>
+      <encyclopedia>
+        <entry type="warebasket" ref="research_gamestart_common"/>
+      </encyclopedia>
+      <theme paint="painttheme_player_01"/>
+    </player>
+    <universe>
+      <factions>
+        <relations>
+        </relations>
+      </factions>
+    </universe>
+    <custom>
+      <item value="player" state="standard" list="character_player_boron_gamestart1_argon_m_macro character_player_boron_gamestart1_argon_f_macro character_player_boron_gamestart1_teladi_m_macro  character_player_boron_gamestart1_paranid_macro"/>
+      <item value="playerfemale" state="standard"/>
+      <item value="playername" state="standard"/>
+    </custom>
+  </gamestart>
+  <gamestart id="x4ep1_gamestart_boron2" name="{1021,1500}" description="{1021,1507}" image="gamestart_boron2" group="9" debug="true">
+    <info>
+      <!-- Boron Character Name -->
+      <!-- Name, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
+      <item name="{1021,8}" value="{1021,1502}"/>
+      <item name="@player"/>
+      <item/>
+      <item/>
+      <item name="{1021,1}" value="{1021,1503}"/>
+      <item/>
+      <item name="{1021,2}" value="{1021,1504}"/>
+      <!--<item name="{1021,3}"   value="{1021,1505}" />-->
+      <item name="{1021,3}" value="{1021,205}"/>
+      <item name="{1021,5}" value="{1021,41}"/>
+      <!--<item />
+      <item name="@unlock"    value="{1021,32}"/>-->
+    </info>
+    <!--<unlock>
+    <userdata ref="unlock_x4gamestart_boron2" value="1" />
+    </unlock>-->
+    <!-- TODO: Cutscene Ref gamestart_boron2-->
+    <cutscene ref="gamestart_boron2" voice="gamestart_boron2_selected"/>
+    <intro ref="gamestart1" voice="gamestart_boron2_started"/>
+    <type name="{1021,92}" description="{1021,93}" recommendation="17"/>
+    <location galaxy="xu_ep2_universe_macro" sector="cluster_606_sector001_macro" docked="true">
+      <player disembarked="true">
+        <position x="4.235" y="1.714" z="-4.488"/>
+        <rotation yaw="-148.85506" pitch="-4.16306"/>
+      </player>
+      <!--<interior room="room_gen_securityoffice_01_macro" name="{20007,1301}" />-->
+      <!--<interior corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_common_01_macro" name="{20007,1031}"/>-->
+    </location>
+    <player macro="character_player_boron_gamestart2_macro" female="true" money="200000" name="{1021,1502}">
+      <inventory>
+        <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1"/>
+        <ware ware="software_scannerobjectmk3" amount="1"/>
+        <ware ware="inv_unstablecrystal" amount="2"/>
+      </inventory>
+      <blueprints>
+        <ware ware="clothingmod_0001"/>
+        <ware ware="clothingmod_0002"/>
+        <ware ware="module_bor_dock_m_01_standard"/>
+        <ware ware="module_bor_pier_l_02"/>
+        <ware ware="module_bor_stor_container_s_01"/>
+        <ware ware="module_bor_hab_s_01"/>
+        <ware ware="module_bor_conn_base_01"/>
+        <ware ware="module_bor_conn_cross_01"/>
+        <ware ware="module_bor_conn_vertical_01"/>
+        <ware ware="paintmod_0006"/>
+        <ware ware="paintmod_0048"/>
+        <ware ware="paintmod_0049"/>
+        <ware ware="paintmod_0050"/>
+        <ware ware="paintmod_0097"/>
+        <ware ware="paintmod_0098"/>
+        <ware ware="paintmod_0099"/>
+        <ware ware="paintmod_0100"/>
+      </blueprints>
+      <research>
+        <ware ware="research_radioreceiver"/>
+        <ware ware="research_sensorbooster"/>
+        <ware ware="research_tradeinterface"/>
+      </research>
+      <encyclopedia>
+        <entry type="warebasket" ref="research_gamestart_common"/>
+      </encyclopedia>
+      <theme paint="painttheme_player_01"/>
+    </player>
+    <universe>
+      <factions>
+        <relations>
+          <relation faction="player" otherfaction="boron" relation="0.010001"/>
+          <relation faction="player" otherfaction="alliance" relation="0.003201"/>
+        </relations>
+      </factions>
+    </universe>
+    <custom>
+      <item value="player" state="standard" list="character_player_boron_gamestart2_macro character_player_boron_gamestart2_male_macro"/>
+      <item value="playerfemale" state="standard"/>
+      <item value="playername" state="standard"/>
+    </custom>
+  </gamestart>
   <gamestart id="x4ep1_gamestart_pirate1" name="{1021,1100}" description="{1021,1101}" image="gamestart_pirate1" group="8">
     <info>
       <!-- Name, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
@@ -1594,7 +1765,7 @@
       <item value="playername" state="standard"/>
     </custom>
   </gamestart>
-  <gamestart id="x4ep1_gamestart_terran1" name="{1021,900}" description="{1021,901}" image="gamestart_terran1" group="6">
+  <gamestart id="x4ep1_gamestart_terran1" name="{1021,900}" description="{1021,901}" image="gamestart_terran1" group="6" debug="true">
     <info>
       <!-- Name, Race, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
       <item name="{1021,8}" value="{1021,902}"/>
@@ -1695,7 +1866,7 @@
       </factions>
     </universe>
   </gamestart>
-  <gamestart id="x4ep1_gamestart_terran2" name="{1021,1000}" description="{1021,1001}" image="gamestart_terran2" group="6">
+  <gamestart id="x4ep1_gamestart_terran2" name="{1021,1000}" description="{1021,1001}" image="gamestart_terran2" group="6" debug="true">
     <info>
       <!-- Name, Race, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
       <item name="{1021,8}" value="{1021,1002}"/>

@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
-  <remove sel="//gamestart[@id='x4ep1_gamestart_boron1']"/>
-  <remove sel="//gamestart[@id='x4ep1_gamestart_boron2']"/>
+  <add sel="//gamestart[@id='x4ep1_gamestart_boron1']" type="@debug">true</add>
+  <add sel="//gamestart[@id='x4ep1_gamestart_boron2']" type="@debug">true</add>
+  <add sel="//gamestart[@id='x4ep1_gamestart_terran1']" type="@debug">true</add>
+  <add sel="//gamestart[@id='x4ep1_gamestart_terran2']" type="@debug">true</add>
   <remove sel="//gamestart[@id='custom_creative']/budget/groups/group[@id='kingdom_end_situation']"/>
 </diff>
