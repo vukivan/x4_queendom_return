@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diff>
+  <remove sel="//gamestart[@id='x4ep1_gamestart_boron1']"/>
+  <remove sel="//gamestart[@id='x4ep1_gamestart_boron2']"/>
+</diff>
