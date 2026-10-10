@@ -3146,94 +3146,17 @@
             <sector sector="cluster_114_sector001_macro" factor="1.1"/>
             <sector sector="cluster_115_sector001_macro" factor="1.9"/>
             <sector sector="cluster_116_sector001_macro" factor="1.4"/>
-            <sector sector="cluster_601_sector001_macro" factor="1.3">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_602_sector001_macro" factor="1">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_603_sector001_macro" factor="1.8">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_604_sector001_macro" factor="1.2">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_605_sector001_macro" factor="1.6">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_606_sector001_macro" factor="2.1">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_606_sector002_macro" factor="1.3">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_606_sector003_macro" factor="1.3">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_607_sector001_macro" factor="1.4">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_608_sector001_macro" factor="1.5">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_609_sector001_macro" factor="1.7">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
+            <sector sector="cluster_601_sector001_macro" factor="1.3"/>
+            <sector sector="cluster_602_sector001_macro" factor="1"/>
+            <sector sector="cluster_603_sector001_macro" factor="1.8"/>
+            <sector sector="cluster_604_sector001_macro" factor="1.2"/>
+            <sector sector="cluster_605_sector001_macro" factor="1.6"/>
+            <sector sector="cluster_606_sector001_macro" factor="2.1"/>
+            <sector sector="cluster_606_sector002_macro" factor="1.3"/>
+            <sector sector="cluster_606_sector003_macro" factor="1.3"/>
+            <sector sector="cluster_607_sector001_macro" factor="1.4"/>
+            <sector sector="cluster_608_sector001_macro" factor="1.5"/>
+            <sector sector="cluster_609_sector001_macro" factor="1.7"/>
             <sector sector="cluster_701_sector001_macro" factor="0.8">
               <dependencies>
                 <dependency>
@@ -3828,28 +3751,6 @@
           </dependency>
         </dependencies>
       </story>
-      <story ref="story_boron_wayfinder" group="kingdom_end_situation" index="1" name="{1021,13401}" description="{1021,13402}">
-        <states>
-          <state ref="story_boron_wayfinder"/>
-        </states>
-        <dependencies>
-          <dependency>
-            <budget ref="story_hq_boso"/>
-            <budget ref="story_hq_dal"/>
-          </dependency>
-        </dependencies>
-      </story>
-      <story ref="story_queendom_returned" group="kingdom_end_situation" index="2" name="{1021,13411}" description="{1021,13412}">
-        <states>
-          <state ref="story_queendom_returned"/>
-        </states>
-        <dependencies>
-          <dependency>
-            <budget ref="story_hq_boso"/>
-            <budget ref="story_hq_dal"/>
-          </dependency>
-        </dependencies>
-      </story>
       <!--====== PHQ Acquisition Option ======-->
       <!--<story ref="story_hq_signal_leak" group="hq_and_staff" index="3" name="{1021,12521}" description="{1021,12522}">
       <states>
@@ -4153,94 +4054,18 @@
         <parameters>
           <space sector="0">
             <!-- Path for consistency in DLC -->
-            <sector sector="cluster_601_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_602_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_603_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_604_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_605_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_606_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_606_sector002_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_606_sector003_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_607_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_608_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
-            <sector sector="cluster_609_sector001_macro">
-              <dependencies>
-                <dependency>
-                  <budget ref="story_boron_wayfinder"/>
-                  <budget ref="story_queendom_returned"/>
-                </dependency>
-              </dependencies>
-            </sector>
+            <sector sector="cluster_601_sector001_macro"/>
+            <sector sector="cluster_602_sector001_macro"/>
+            <sector sector="cluster_603_sector001_macro"/>
+
+            <sector sector="cluster_604_sector001_macro"/>
+            <sector sector="cluster_605_sector001_macro"/>
+            <sector sector="cluster_606_sector001_macro"/>
+            <sector sector="cluster_606_sector002_macro"/>
+            <sector sector="cluster_606_sector003_macro"/>
+            <sector sector="cluster_607_sector001_macro"/>
+            <sector sector="cluster_608_sector001_macro"/>
+            <sector sector="cluster_609_sector001_macro"/>
             <sector sector="cluster_701_sector001_macro">
               <dependencies>
                 <dependency>
@@ -4497,28 +4322,6 @@
       <story ref="story_timelines_grandmother" group="timelines_situation" index="2" name="{1021,13511}" description="{1021,13512}">
         <states>
           <state ref="story_timelines_grandmother"/>
-        </states>
-        <dependencies>
-          <dependency>
-            <budget ref="story_hq_boso"/>
-            <budget ref="story_hq_dal"/>
-          </dependency>
-        </dependencies>
-      </story>
-      <story ref="story_boron_wayfinder" group="kingdom_end_situation" index="1" name="{1021,13401}" description="{1021,13402}">
-        <states>
-          <state ref="story_boron_wayfinder"/>
-        </states>
-        <dependencies>
-          <dependency>
-            <budget ref="story_hq_boso"/>
-            <budget ref="story_hq_dal"/>
-          </dependency>
-        </dependencies>
-      </story>
-      <story ref="story_queendom_returned" group="kingdom_end_situation" index="2" name="{1021,13411}" description="{1021,13412}">
-        <states>
-          <state ref="story_queendom_returned"/>
         </states>
         <dependencies>
           <dependency>

@@ -29,10 +29,10 @@
         <set_value name="$MissionActors" exact="table[]"/>
 
         <!--Custom gamestart flags (only reliable after 6.20 gamestarts)-->
-        <set_value name="$story_boron_wayfinder" exact="gamestart.storystate.story_boron_wayfinder"/>
+        <set_value name="$story_boron_wayfinder" exact="false"/>
         <set_value name="$story_queendom_returned" exact="true"/>
         <set_value name="$HasCustomGamestartSkip" exact="
-                   $story_boron_wayfinder or 
+                   $story_boron_wayfinder or
                    $story_queendom_returned"/>
       </actions>
       <patch sinceversion="2">

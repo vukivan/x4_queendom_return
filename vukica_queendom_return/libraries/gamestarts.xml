@@ -4,5 +4,31 @@
   <add sel="//gamestart[@id='x4ep1_gamestart_boron2']" type="@debug">true</add>
   <add sel="//gamestart[@id='x4ep1_gamestart_terran1']" type="@debug">true</add>
   <add sel="//gamestart[@id='x4ep1_gamestart_terran2']" type="@debug">true</add>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_601_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_602_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_603_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_604_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_605_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_606_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_606_sector002_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_606_sector003_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_607_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_608_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_609_sector001_macro']/dependencies"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/story[@name='{1021,13401}']"/>
+  <remove sel="//gamestart[@id='custom_budgeted']/budget/story[@name='{1021,13411}']"/>
+  <remove sel="//sector[@sector='cluster_601_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_602_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_603_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_604_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_605_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_606_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_606_sector002_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_606_sector003_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_607_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_608_sector001_macro']/dependencies"/>
+  <remove sel="//sector[@sector='cluster_609_sector001_macro']/dependencies"/>
   <remove sel="//gamestart[@id='custom_creative']/budget/groups/group[@id='kingdom_end_situation']"/>
+  <remove sel="//story[@name='{1021,13401}']"/>
+  <remove sel="//story[@name='{1021,13411}']"/>
 </diff>

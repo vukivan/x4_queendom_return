@@ -251,7 +251,7 @@
 
         <!--Custom gamestart flags (only reliable after 6.20 gamestarts)-->
         <set_value name="$story_queendom_returned" exact="true"/>
-        <set_value name="$story_boron_wayfinder" exact="gamestart.storystate.story_boron_wayfinder"/>
+        <set_value name="$story_boron_wayfinder" exact="false"/>
 
         <!-- Disable (and TODO: hide) the highways until they are unlocked by plot progression -->
         <find_highway name="$SoDHighways" space="$SoDSector" multiple="true" />
