@@ -2995,8 +2995,6 @@
         <cue name="Story_Activation_Manager">
           <conditions>
             <event_cue_completed cue="Setup_Locations"/>
-            <check_value value="player.module != 'x4ep1_gamestart_boron1'"/>
-            <check_value value="player.module != 'x4ep1_gamestart_boron2'"/>
           </conditions>
           <cues>
             <cue name="Activate_Story" onfail="cancel">
@@ -3027,14 +3025,6 @@
                     <!--Actions common to story_boron_wayfinder and story_queendom_returned-->
                     <signal_cue cue="BoronGates"/>
                     <signal_cue_instantly cue="Setup_KingdomEnd_QueenFleet"/>
-                    <warp object="$AllianceHubShip" sector="$SoDSector">
-                      <position value="$SoD_ALI_Pos"/>
-                    </warp>
-                    <do_for_each name="$ship" in="$AllianceEscortGroup">
-                      <warp object="$ship" sector="$SoDSector">
-                        <safepos value="$SoD_ALI_Pos" radius="2km" ignoredangerousregions="true"/>
-                      </warp>
-                    </do_for_each>
                   </actions>
                   <delay exact="1s"/>
                   <actions>

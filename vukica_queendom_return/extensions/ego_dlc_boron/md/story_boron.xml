@@ -8,6 +8,10 @@
   <remove sel="//cue[@name='Setup_AllianceEscort']"/>
   <remove sel="//cue[@name='Setup_AdmiralFleet']"/>
   <remove sel="//cue[@name='Setup_AdmiralFleet_PlaceActor']"/>
+  <remove sel="//cue[@name='Story_Activation_Manager']/conditions/check_value[1]"/>
+  <remove sel="//cue[@name='Story_Activation_Manager']/conditions/check_value"/>
+  <remove sel="//cue[@name='Handle_Custom_Gamestart_Skip']/cues/cue/actions[1]/warp"/>
+  <remove sel="//cue[@name='Handle_Custom_Gamestart_Skip']/cues/cue/actions[1]/do_for_each"/>
   <replace sel="//do_elseif/find_station">
     <signal_cue_instantly check="false" cue="md.Setup_DLC_Boron.Boron_Gates_Open_RemainingSystems" comment="will open all gates"/>
   </replace>

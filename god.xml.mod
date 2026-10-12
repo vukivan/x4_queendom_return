@@ -2690,6 +2690,8 @@
         <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_trade"/>
         <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_fight"/>
         <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_discover"/>
+        <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_boron1"/>
+        <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_boron2"/>
       </quotas>
       <location class="sector" macro="cluster_31_sector001_macro" matchextension="false"/>
       <position x="9000" y="0" z="93404" pitch="0" roll="0" yaw="0"/>
@@ -4947,19 +4949,6 @@
       <station constructionplan="bor_khaakscrap_processor">
         <loadout>
           <level exact="0.7"/>
-        </loadout>
-      </station>
-    </station>
-    <!-- Boron God gamestart player HQ -->
-    <station id="gs_boron2_hq" race="boron" owner="civilian" type="headquarters">
-      <quotas>
-        <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_boron2"/>
-      </quotas>
-      <location class="sector" macro="cluster_31_sector001_macro" matchextension="false"/>
-      <position x="-3335" y="0" z="67904" pitch="0" roll="0" yaw="0"/>
-      <station constructionplan="'x4ep1_playerheadquarters_with_dock'">
-        <loadout>
-          <level exact="0.2"/>
         </loadout>
       </station>
     </station>

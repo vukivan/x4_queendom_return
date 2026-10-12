@@ -580,12 +580,11 @@
           </conditions>
           <actions>
             <do_if value="(player.module != 'custom_budgeted' and player.module != 'custom_creative') or $story_hq_boso or $story_hq_dal">
-              <do_if value="player.module == 'x4ep1_gamestart_scientist'">
-                <!--Specialised gamestart where HQ is present (see god.xml, x4ep1_gamestart_scientist_hq) -->
-                <find_station_by_true_owner name="$HQ" macro="macro.station_pla_headquarters_base_01_macro" faction="faction.player" space="$HQSector" required="true"/>
+              <do_if value="player.module != 'custom_budgeted' and player.module != 'custom_creative'">
+                <find_station_by_true_owner name="$HQ" macro="macro.station_pla_headquarters_base_01_macro" faction="faction.player" space="player.galaxy" required="true"/>
               </do_if>
               <do_else>
-                <find_station_by_true_owner name="$HQ" macro="macro.station_pla_headquarters_base_01_macro" faction="faction.player" space="$HQSectorHE" required="true"/>
+                <find_station_by_true_owner name="$HQ" macro="macro.station_pla_headquarters_base_01_macro" faction="faction.player" space="player.galaxy"/>
                 <do_if value="not $HQ">
                   <!--Default to spawning in Grand Exchange-->
                   <create_station name="$HQ" macro="macro.station_pla_headquarters_base_01_macro" sector="$HQSector" constructionplan="'x4ep1_playerheadquarters_with_dock'" owner="faction.player" state="componentstate.operational">
