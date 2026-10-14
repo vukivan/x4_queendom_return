@@ -1505,13 +1505,12 @@
     <cutscene ref="gamestart_boron2" voice="gamestart_boron2_selected"/>
     <intro ref="gamestart1" voice="gamestart_boron2_started"/>
     <type name="{1021,92}" description="{1021,93}" recommendation="17"/>
-    <location galaxy="xu_ep2_universe_macro" sector="cluster_606_sector001_macro" docked="true">
+    <location galaxy="xu_ep2_universe_macro" sector="cluster_31_sector001_macro" station="station_pla_headquarters_base_01_macro">
       <player disembarked="true">
-        <position x="4.235" y="1.714" z="-4.488"/>
-        <rotation yaw="-148.85506" pitch="-4.16306"/>
+        <position x="-0.05115" y="1.806" z="-2.541"/>
+        <rotation yaw="179.69951" pitch="-1.83378"/>
       </player>
-      <!--<interior room="room_gen_securityoffice_01_macro" name="{20007,1301}" />-->
-      <!--<interior corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_common_01_macro" name="{20007,1031}"/>-->
+      <interior module="landmarks_player_hq_01_research_macro" corridor="room_arg_corridor_01_macro" door="con_room_01" room="room_gen_boronoffice_01_macro" name="{20007,1171}"/>
     </location>
     <player macro="character_player_boron_gamestart2_macro" female="true" money="200000" name="{1021,1502}">
       <inventory>

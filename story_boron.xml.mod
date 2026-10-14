@@ -3033,7 +3033,6 @@
                     </do_if>
                     <do_elseif value="$story_queendom_returned">
                       <signal_cue_instantly check="false" cue="md.Setup_DLC_Boron.Boron_Gates_Open_RemainingSystems" comment="will open all gates" />
-                      <add_blueprints wares="[ware.ship_bor_m_corvette_02_a]"/> // remove for RE
                       <signal_cue_instantly cue="md.Setup_DLC_Boron.BoronFaction_Jobs_ArgonDefender"/>
                       <signal_cue_instantly cue="md.Setup_DLC_Boron.ArgonFaction_Jobs_BoronDefender"/>
                       <signal_cue_instantly cue="md.X4Ep1_Mentor_Subscriptions.Add_Player_Office_Trophy" param="tag.trophy_story_boron_throne"/>

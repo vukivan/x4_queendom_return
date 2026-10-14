@@ -17,6 +17,7 @@
   </replace>
   <remove sel="//do_elseif/find_dockingbay"/>
   <remove sel="//actions[2]/do_elseif/create_ship"/>
+  <remove sel="//do_elseif/add_blueprints"/>
   <add sel="//cue[@name='Handle_Custom_Gamestart_Skip']/cues/cue/actions[2]/do_elseif/signal_cue" pos="before">
     <signal_cue check="false" cue="md.Setup_DLC_Boron.BoronFaction_Jobs_HatikvahPatrols"/>
   </add>
