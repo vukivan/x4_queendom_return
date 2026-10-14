@@ -26,6 +26,7 @@
   <add sel="//do_elseif/signal_cue[@cue='Cleanup_Ch7_Delayed']" pos="before">
     <signal_cue check="false" cue="md.Setup_DLC_Boron.BoronFaction_ActivateHighway_SoD"/>
   </add>
+  <remove sel="//cue[@name='Ch6_1_BoFu_Complete']/actions/signal_cue"/>
   <replace sel="//cue[@name='Highway_Activation_Skip']/conditions/check_value/@value">false</replace>
   <replace sel="//cue[@name='Ch8_Carrier_Combat']/conditions/check_any">
     <check_value value="false"/>

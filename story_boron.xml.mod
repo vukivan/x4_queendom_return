@@ -13548,7 +13548,7 @@
                       </run_actions>
                     </do_if>
 
-                    <signal_cue cue="Ch6_SubMissions"/>
+                    <!--<signal_cue cue="Ch6_SubMissions"/>-->
                   </actions>
                   <patch sinceversion="2" state="complete">
                     <set_value name="$Patch_SetSuppressFirstMeetingFalse"/>

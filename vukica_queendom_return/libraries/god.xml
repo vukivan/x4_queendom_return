@@ -17,7 +17,6 @@
         <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_fight"/>
         <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_discover"/>
         <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_boron1"/>
-        <quota galaxy="1" zone="1" gamestart="x4ep1_gamestart_boron2"/>
       </quotas>
       <location class="sector" macro="cluster_31_sector001_macro" matchextension="false"/>
       <position x="9000" y="0" z="93404" pitch="0" roll="0" yaw="0"/>
@@ -28,5 +27,4 @@
       </station>
     </station>
   </add>
-  <remove sel="//station[@id='gs_boron2_hq']"/>
 </diff>

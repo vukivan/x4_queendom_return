@@ -48,7 +48,6 @@
     <relation faction="player" otherfaction="alliance" relation="0.003201"/>
   </add>
   <remove sel="//gamestart[@id='x4ep1_gamestart_boron1']/custom"/>
-  <add sel="//gamestart[@id='x4ep1_gamestart_boron2']" type="@debug">true</add>
   <add sel="//gamestart[@id='x4ep1_gamestart_terran1']" type="@debug">true</add>
   <add sel="//gamestart[@id='x4ep1_gamestart_terran2']" type="@debug">true</add>
   <remove sel="//gamestart[@id='custom_budgeted']/budget/known/parameters/space/sector[@sector='cluster_601_sector001_macro']/dependencies"/>

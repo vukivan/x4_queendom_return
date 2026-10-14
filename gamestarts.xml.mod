@@ -1481,7 +1481,7 @@
       </factions>
     </universe>
   </gamestart>
-  <gamestart id="x4ep1_gamestart_boron2" name="{1021,1500}" description="{1021,1507}" image="gamestart_boron2" group="9" debug="true">
+  <gamestart id="x4ep1_gamestart_boron2" name="{1021,1500}" description="{1021,1507}" image="gamestart_boron2" group="9">
     <info>
       <!-- Boron Character Name -->
       <!-- Name, Gender, Location, Starting Ship(,2)/Ships(,10), Cash, Property -->
